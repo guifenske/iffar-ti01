@@ -6,8 +6,10 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
- //slug , controller função -> view
+// http://localhost/aulati3/public/
+
+            //slug //Controller::função -> view
 $routes->get('/', 'Home::index');
 
-// -> view teste
 $routes->get('/teste', 'Home::teste');
+ //-> view teste
